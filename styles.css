@@ -1,0 +1,212 @@
+@font-face {
+  font-family: shamery;
+  src: url(shamery.ttf);
+}
+
+@font-face {
+  font-family: BreakingWild;
+  src: url(BreakingWild.ttf);
+}
+
+@font-face {
+  font-family: geo;
+  src: url(geomanist-regular-italic-webfont.woff);
+}
+
+
+
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+/** {
+  box-sizing: border-box;
+}
+*/
+
+div{
+border: 1px solid red;
+  padding: 15px;
+
+}
+.header {
+ 
+  text-align: center;
+}
+
+.nav{
+	
+  text-align: center;
+
+
+}
+
+.row {
+	
+  display: block;
+ 
+}
+
+.list{
+
+  display: block;
+
+}
+
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid red;
+  text-align: center;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+body{
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h1 {
+	font-family: shamery;
+  color: black;
+  text-align: center;
+}
+h2{
+	font-family: shamery;
+	font-size: 20px;
+	line-height: 1;
+
+	
+
+}
+
+h5{
+	
+	font-size: 15px;
+
+	line-height: 1;
+	font-family: BreakingWild;
+	
+
+}
+
+p {
+	font-family: geo;
+ 
+}
+
+.content{
+	margin: auto;
+	max-width:1000px;
+	max-height: 600px;
+	min-width: 200px;
+	min-height: 300px;
+
+}
+
+.contentTitle{
+	
+	
+	margin-left: 15px;
+
+}
+
+.contentImg{
+	margin: 15px;
+	display: inline-block;
+	/*float: left;*/
+	width: 25%;
+	height: auto;
+	max-width:200px;
+	max-height: 200px;
+	min-width: 150px;
+	
+}
+
+.contentImg img{
+	width: 80%;
+	max-width:200px;
+	max-height: 200px;
+	
+}
+
+.contentText{
+	max-width: 42em;
+	margin:15px;
+	display: inline-block;
+	width: 55%
+	height: auto;
+	position: relative;
+
+
+}
+
+
+
+
+.bioImg{
+	
+	display: inline-block;
+	/*float: left;*/
+	width: auto;
+	height: auto;
+	
+}
+
+.bioImg img{
+	width: 150px;
+	height: 150px;
+	
+}
+
+.name{
+	
+	text-align: right;
+	display: inline-block;
+	height: auto;
+	margin-left: 300px;
+
+
+}
+
+.bioText{
+	
+	display: inline-block;
+	width: 66%;
+	height: auto;
+
+
+}
